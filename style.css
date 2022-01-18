@@ -1,0 +1,36 @@
+* {
+  background-color: #111111;
+  font-family: sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0px;
+}
+header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 25px;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.nav {
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 1;
+}
+
+.nav:hover {
+  color: #0074d9;
+  opacity: 0.5;
+}
+.family {
+  text-align: right;
+}
+
+p {
+  margin-left: 10px;
+}

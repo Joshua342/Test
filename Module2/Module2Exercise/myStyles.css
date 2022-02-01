@@ -2,3 +2,18 @@
 body{
     background-color: darkgray;
 }
+
+a, li{
+    list-style:none;
+    text-decoration:none;
+}
+
+header h1{
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    width:33%;
+    justify-content:space-between;
+}

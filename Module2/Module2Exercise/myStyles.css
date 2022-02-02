@@ -12,6 +12,11 @@ body{
 a, li{
     list-style:none;
     text-decoration:none;
+    opacity:1;
+}
+a, li:hover{
+opacity:0.5;
+color:lightblue;
 }
 
 header h1{

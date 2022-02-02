@@ -13,7 +13,10 @@ header h1{
 }
 
 .container{
-    display:flex;
-    width:33%;
+    display:flex;    
     justify-content:space-between;
+}
+
+.links{
+width:33%;
 }

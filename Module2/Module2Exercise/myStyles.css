@@ -1,6 +1,10 @@
 /*Your style will go here*/
-body{
-    background-color: #708090;
+* {
+  background-color: #111111;
+  font-family: sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0px;
 }
 
 a, li{

@@ -1,0 +1,84 @@
+/*Your style will go here*/
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0px;
+  background-color: #111111;
+  color: #dddddd;
+}
+li a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Links,
+a {
+  width: 15%;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.5;
+  color: aqua;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Lesson {
+  text-align: right;
+}
+
+img {
+  border-radius: 50%;
+  height: 45px;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  height: 330px;
+}
+.main {
+  width: 50%;
+}
+.newspaper {
+  column-count: 3;
+}
+
+h6 {
+  position: absolute;
+  width: 15%;
+  margin-bottom: 15px;
+  bottom: 0;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+table {
+  border-style: solid;
+  width: 50%;
+}
+
+.moreinfo {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  border-style: solid;
+}

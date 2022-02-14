@@ -24,7 +24,7 @@ section{
   padding-top:10px;
 }
 
-img{
+.img{
   display:flex;
   justify-content:right;
   width:50%;}

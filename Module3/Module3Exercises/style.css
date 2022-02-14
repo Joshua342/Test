@@ -27,4 +27,7 @@ section{
 .img{
   display:flex;
   justify-content:right;
-  width:50%;}
+  }
+.img img{
+  width:33%;
+}

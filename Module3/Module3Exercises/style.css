@@ -4,7 +4,7 @@ margin:0;
 color:#FFFFFF;
 background-color:#262626;
 background-image: url("https://static.stacker.com/s3fs-public/timeline_ww11_timeline_wwII_slide_lead.png");
-
+background-repeat: no-repeat;
 }
 header h1{
   text-align:center;

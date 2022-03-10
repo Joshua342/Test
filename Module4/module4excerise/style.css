@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+font-family:Montserrat;
+background-color:#696969;
+}
+
+.container{
+  display:flex;
+}
+
+#d1, #d2, #d3, #d4{
+border:2px solid;
+width:250px;
+height:200px;
+text-align:center;
+overflow:scroll;
+padding:15px;
+margin:10px;
+}
+
+.container2{
+display:flex;
+text-align:center;
+}
+
+#d5, #d6, #d7, #d8{
+  padding:15px;
+  margin:10px;
+  width:250px;
+  height:200px;
+  border:2px solid;
+  overflow:scroll;
+}
+#d1, #d5{
+background-color:yellow;
+}
+#d2, #d6{
+background-color:aqua;
+}
+#d3, #d7{
+  background-color:red;
+}
+#d4, #d8{
+  background-color:orange;
+}
+
+
+#logo{
+  border-radius:50%;
+  width:50px;
+}
+
+nav{
+  display:flex;
+  border:2px solid;
+ justify-content:space-between;
+ position:sticky;
+ top:0;
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+ul li{
+  list-style:none;
+  color:white;
+}
+
+.CEO 
+    {
+        height:50px;
+    }
+    .CEO li a{
+        display: none;
+    }
+    .CEO:hover li a{
+        display:block;
+    }
+
+#d5,#d6,#d7,#d8 img{
+  z-index:3;
+}

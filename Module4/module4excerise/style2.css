@@ -1,0 +1,43 @@
+*{
+  background-color:grey;
+}
+nav{
+display:flex;
+border:2px solid;
+ justify-content:space-between;
+ position:sticky;
+ top:0;
+  text-align:right;
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+ul li{
+  list-style:none;
+  color:white;
+}
+
+    .CEO li a{
+        display: none;
+        text-align:center;
+        align-items:center;
+      
+    }
+    .CEO:hover li a{
+        display:block;
+    }
+img{
+  border-radius:50%;
+  width:40px;
+}
+
+
+.list li{
+  text-align:center;
+}
+
+.list iframe{
+  width:33%;
+}

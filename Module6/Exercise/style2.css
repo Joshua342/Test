@@ -1,0 +1,27 @@
+.box{
+    width:500px;
+    height:400px;
+    background:url(wolf.svg) center bottom/
+                             cover no-repeat,
+                url(moon.png) right top / 45% no-repeat;
+    
+}
+
+body{
+    background: radial-gradient(yellow, black);
+    background-repeat: no-repeat;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    opacity: 1;
+    display:flex;
+    justify-content: center;
+    font-size:25px;
+}
+
+nav a:hover{
+    opacity: 0.5;
+    color:grey;
+}

@@ -1,0 +1,52 @@
+*{
+  margin:0px;
+}
+.container{
+  display:flex;
+  justify-content:space-between;
+  border:solid 3px grey;
+  background-color:black;
+}
+.container:hover{
+  transition:0.5s;
+  background-color:#ED1C24;
+  color:#FFFFFF;
+}
+
+#first{
+  border-radius:50%;
+  width:50px;
+  
+}
+.container a{
+  text-decoration:none;
+  color:white;
+  opacity:1;
+  width:15%;
+}
+
+.container a:hover{
+  opacity:0.5;
+}
+
+#about, #contact{
+  text-align:center;
+}
+
+
+.images ul li{
+  list-style:none;
+}
+
+.images li{
+  font-size:25px;
+}
+
+.images img{
+  width:40%;
+}
+
+.images{
+  border:solid;
+  background-image: linear-gradient(to right, grey , yellow)
+}

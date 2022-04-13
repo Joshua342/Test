@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav{
+  border:solid 2px;
+  background-color:#E61C22;
+  position:sticky;
+  top:0px;
+}
+.pricing{
+  text-align:center;
+}
+ nav ul{
+  display:flex;
+  justify-content:space-between;
+  list-style:none;
+}
+
+nav .links{
+  width:10%;
+}
+
+nav a{
+  text-decoration:none;
+  color:#FFFFFF;
+  font-size:14pt;
+}
+
+.dropdown-content{
+  display:none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: gray;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+.links:hover{
+  background-color:grey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media1.giphy.com/media/uyOHPmQbVO5KE/giphy.gif?cid=ecf05e47z8t82rx25s9up98vhe600th1ffduwptg85ijamlz&rid=giphy.gif&ct=g");
+  
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
